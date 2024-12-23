@@ -1,0 +1,274 @@
+.page-grid {
+  display: flex;
+  margin-top: 60px;
+}
+
+
+.profile-grid {
+  height: 2000px;
+  flex: 2;
+  padding-left: 300px;
+}
+
+.profile-section {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-top {
+  width: 100%;
+  height: 100px;
+  flex: 1;
+  display: flex;
+}
+
+.profile-top-left {
+  width: 200px;
+}
+
+.profile-image {
+  width: 160px;
+  border-radius: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.profile-top-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.profile-name {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-description {
+  width: 100%;
+  flex: 1;
+  display: grid;
+  row-gap: 10px;
+  grid-template-columns: 100px 1fr;
+  border-top-style: solid;
+  border-width: 1px;
+  padding-top: 10px;
+}
+
+.description-title {
+  height: 30px;
+  font-weight: bold;
+}
+
+.description-content {
+  height: 30px;
+  margin-left: 80px;
+}
+
+
+.profile-bottom {
+  width: 100%;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: rgb(0, 124, 133);
+}
+
+
+
+
+
+
+
+
+.profile-favorite-books {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.favorite-books {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  border-top-style: solid;
+  padding-top: 20px;
+  border-width: 1px;
+}
+
+.book-cover {
+  width: 60px;
+  height: 80px;
+}
+
+.book {
+  width: 60px;
+  height: 80px;
+  object-fit: contain;
+}
+
+
+
+.profile-reading {
+  width: 100%;
+  height: 900px;
+}
+
+.user-reading {
+  margin-bottom: 20px;
+}
+
+.currently-reading-book {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin-bottom: 30px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-top: 10px;
+}
+
+.reading-left {
+  width: 100px;
+}
+
+.reading-book {
+  height: 100%;
+}
+
+.reading-middle {
+  flex: 1;
+}
+
+.status {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.author {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-size: 14px;
+  color: rgb(141, 141, 141);
+}
+
+.reading-right {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reading-button {
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+
+
+
+
+
+.friends-grid {
+  height: 2000px;
+  padding-right: 400px;
+  margin-left: 14px;
+  flex: 1;
+}
+
+.challenge-section {
+  width: 100%;
+  height: 140px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.challenge-image {
+  width: 140px;
+}
+
+.challenge-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: left;
+}
+
+.challenge-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.challenge-title {
+  height: 50px;
+}
+
+.challenge-progress {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.progress-bar {
+  height: 20px;
+  width: 200px;
+  background-color: rgb(81, 20, 20);
+}
+
+
+.friends-section {
+  width: 100%;
+  height: 600px;
+}
+
+.friend-profile {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.friend-profile-image {
+  width: 60px;
+  height: 100%;
+}
+
+.friend-profile-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.friend-profile-description {
+  flex: 1;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+
+
